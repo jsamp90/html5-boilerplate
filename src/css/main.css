@@ -137,38 +137,35 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+
 body {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Lato', sans-serif;
 }
 
 header {
-    background-image: url('../img/image.jpeg');
+    background-image: url('../img/civil.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding: 30vh 0;
 }
 
 header h1 {
-    text-align: center;
-    padding: 40vh 0;
+    text-align: left;
+    padding: 0px 30vh;
+
 }
 
 h1 {
     font-size: 48px;
-    color: hotpink;
+    color: white;
 }
 
 #logo {
     
 }
 
-h2 {
-    font-size: 36px;
-    background: violet;
-    width: 100%;
-    text-align: center;
-    margin: 0 0 10px;
-}
 
 h3 {
     font-size: 28px;
@@ -196,27 +193,65 @@ blockquote {
 }
 
 nav {
-    background: yellow;
-    position: fixed;
+    background: white;
+    position: relative;
     top: 0;
     left: 0;
     right: 0;
     width: 100%;
+    text-align: center;
 }
-
-nav:hover {
-    background: hotpink;
-    height: 50vh;
+nav h3 {
+    position: absolute;
+    font-family: 'Pacifico', cursive;
+    padding: 18px 18px;
+    color: #0B9ADB;
 }
-
 nav ul {
     list-style: none;
-    text-align: center;
+    display: inline-block;
     padding: 10px;
 }
 
 nav li {
     display: inline-block;
+}
+
+nav .signup,
+nav .signin {
+    font-family: 'Pacifico', cursive;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: black;
+    padding: 25px 25px;
+}
+
+nav .signup {
+    right: 125px;
+}
+
+nav .signin {
+    right: 20px;
+}
+
+nav .signup,
+nav .signin:hoover:{
+    background-color: #0B9ADB;
+    color: white;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #0B9ADB;
+    color: white;
 }
 
 aside {
@@ -228,7 +263,7 @@ aside {
 
 section {
     background: blue;
-    max-width: 960px;
+    max-width: 1400px;
     margin: auto;
     width: 100%;
     overflow: auto;
@@ -243,42 +278,27 @@ section.video video {
     width: 100%;
 }
 
-section.video h3 {
-    position: absolute;
-    color: hotpink;
-    width: 100%;
-    text-align: center;
-    margin: -8px 0 0;
-    top: 50%;
-}
-
-section.video button {
-    position: absolute;
-    bottom: 25%;
-    left: 50%;
-    margin-left: -19px;
-    font-family: 'Roboto Mono', monospace;
-}
 
 section.grid {
     text-align: center;
 }
 
 section.grid div.grid-item {
-    width: 25%;
-    margin: 1%;
-    height: 150px;
+    width: 230px;
+    margin: 0%;
+    height: 200px;
     background: salmon;
     display: inline-block;
 }
 
 input[type="text"] {
     background: yellow;
-    width: 50%;
+    width: 100%;
     line-height: 2;
 }
 
 input[type="submit"] {
+    width: 100%;
     background: red;
 }
 

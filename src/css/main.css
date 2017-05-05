@@ -148,12 +148,12 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 30vh 0;
+    padding: 15vh 0;
 }
 
 header h1 {
     text-align: left;
-    padding: 0px 30vh;
+    margin-left: 30vh;
 
 }
 
@@ -168,7 +168,7 @@ h1 {
 
 
 h3 {
-    font-size: 28px;
+    font-size: 24px;
     margin: 0 0 10px;
 }
 
@@ -254,16 +254,34 @@ li a:hover {
     color: white;
 }
 
-aside {
-    background: green;
+form {
+    margin-left: 30vh;
+}
+
+form h3 {
+    color: white;
+}
+
+input[type="text"] {
+    background: white;
+    width: 40%;
+    line-height: 2;
+    
+}
+
+input[type="submit"] {
+    height: 30px;
+    width: 70px;
+    background: red;
+}
+
+input[name="location"] {
     width: 25%;
-    float: left;
-    display: block;
 }
 
 section {
     background: blue;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: auto;
     width: 100%;
     overflow: auto;
@@ -284,23 +302,45 @@ section.grid {
 }
 
 section.grid div.grid-item {
-    width: 230px;
+    width: 20%; /*fix padding*/
     margin: 0%;
     height: 200px;
     background: salmon;
-    display: inline-block;
+    display: block;
+    float: left;
 }
 
-input[type="text"] {
-    background: yellow;
-    width: 100%;
-    line-height: 2;
+.grid-item p {
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
-input[type="submit"] {
-    width: 100%;
-    background: red;
+.grid-item h3 {
+    margin-top: 100px;
 }
+
+section.practicegrid {
+    height: 900px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+section.practicegrid div.practice-grid-item {
+    width: 400px; /*fix padding*/
+    margin: 0%;
+    height: 300px;
+    background: salmon;
+    display: block;
+    float: left;
+}
+
+section.legalcontainer {
+    height: 600px;
+    margin-top: 100px;
+}
+
+
 
 article {
     background: orange;

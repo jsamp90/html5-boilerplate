@@ -192,6 +192,12 @@ blockquote {
     margin: 0 0 10px;
 }
 
+
+
+
+
+
+
 nav {
     background: white;
     position: relative;
@@ -212,11 +218,9 @@ nav ul {
     display: inline-block;
     padding: 10px;
 }
-
 nav li {
     display: inline-block;
 }
-
 nav .signup,
 nav .signin {
     font-family: 'Pacifico', cursive;
@@ -226,21 +230,17 @@ nav .signin {
     color: black;
     padding: 25px 25px;
 }
-
 nav .signup {
     right: 125px;
 }
-
 nav .signin {
     right: 20px;
 }
-
 nav .signup,
 nav .signin:hoover:{
     background-color: #0B9ADB;
     color: white;
 }
-
 li a {
     display: block;
     color: black;
@@ -248,36 +248,43 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-
 li a:hover {
     background-color: #0B9ADB;
     color: white;
 }
 
+
+
+
+
+
+
 form {
     margin-left: 30vh;
 }
-
 form h3 {
     color: white;
 }
-
 input[type="text"] {
     background: white;
     width: 40%;
     line-height: 2;
     
 }
-
 input[type="submit"] {
     height: 30px;
     width: 70px;
     background: red;
 }
-
 input[name="location"] {
     width: 25%;
 }
+
+
+
+
+
+
 
 section {
     background: blue;
@@ -287,20 +294,30 @@ section {
     overflow: auto;
 }
 
+
+
+
+
+
+
 section.video {
     max-width: 100%;
     position: relative;
 }
-
 section.video video {
     width: 100%;
 }
 
 
+
+
+
+
+
+
 section.grid {
     text-align: center;
 }
-
 section.grid div.grid-item {
     width: 20%; /*fix padding*/
     margin: 0%;
@@ -309,36 +326,101 @@ section.grid div.grid-item {
     display: block;
     float: left;
 }
-
 .grid-item p {
     margin-bottom: 20px;
     padding-left: 30px;
     padding-right: 30px;
 }
-
 .grid-item h3 {
     margin-top: 100px;
 }
+
+
+
+
+
+
 
 section.practicegrid {
     height: 900px;
     margin-top: 100px;
     text-align: center;
 }
-
 section.practicegrid div.practice-grid-item {
-    width: 400px; /*fix padding*/
+    width: 400px;
     margin: 0%;
     height: 300px;
     background: salmon;
     display: block;
     float: left;
+    vertical-align: top;
 }
+.practice-grid-item h3 {
+    margin-top: 125px;
+    color: white;
+    font-size: 35px;
+}
+section.practicegrid div.practice-grid-item {
+    background-size: cover;
+}
+section.practicegrid div.practice-grid-item:nth-child(1) {
+    background-image: url('../img/PracticeArea/Family.jpg');
+}
+section.practicegrid div.practice-grid-item:nth-child(2) {
+    background-image: url('../img/PracticeArea/Immigration.jpg');
+}
+section.practicegrid div.practice-grid-item:nth-child(3) {
+    background-image: url('../img/PracticeArea/business.jpg');
+}
+section.practicegrid div.practice-grid-item:nth-child(4) {
+    background-image: url('../img/PracticeArea/Civil.jpg');
+}
+section.practicegrid div.practice-grid-item:nth-child(5) {
+    background-image: url('../img/PracticeArea/Labor & Employment.jpg');
+}
+section.practicegrid div.practice-grid-item:nth-child(6) {
+    background-image: url('../img/PracticeArea/Realestate.jpg');
+}
+section.practicegrid div.practice-grid-item:nth-child(7) {
+    background-image: url('../img/PracticeArea/Criminal Defense.jpg');
+}
+section.practicegrid div.practice-grid-item:nth-child(8) {
+    background-image: url('../img/PracticeArea/Emergency.jpg');
+}
+section.practicegrid div.practice-grid-item:nth-child(9) {
+    background-image: url('../img/PracticeArea/debt.jpg');
+}
+
+
+
+
+
+
 
 section.legalcontainer {
     height: 600px;
     margin-top: 100px;
 }
+section.legalcontainer div.legalcontainer-item {
+    width: 298px;
+    margin: 0%;
+    height: 100px;
+    background: white;
+    display: block;
+    float: left;
+    vertical-align: top;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #A0A0A0;
+}
+.legalcontainer-item h4 {
+    color: #A0A0A0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+
 
 
 

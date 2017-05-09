@@ -269,6 +269,7 @@ input[type="text"] {
     background: white;
     width: 40%;
     line-height: 2;
+    border-bottom-color: 
     
 }
 input[type="submit"] {
@@ -400,11 +401,11 @@ section.practicegrid div.practice-grid-item:nth-child(9) {
 
 
 
-section.legalcontainer {
-    height: 600px;
+section.legalcontainer-titlebar {
+    height: 102px;
     margin-top: 100px;
 }
-section.legalcontainer div.legalcontainer-item {
+section.legalcontainer-titlebar div.legalcontainer-title {
     width: 298px;
     margin: 0%;
     height: 100px;
@@ -416,13 +417,15 @@ section.legalcontainer div.legalcontainer-item {
     border-width: 1px;
     border-color: #A0A0A0;
 }
-.legalcontainer-item h4 {
+.legalcontainer-title h4 {
     color: #A0A0A0;
     text-align: center;
     margin-top: 40px;
 }
-
-
+section.legalcontainer-sections {
+    height: 500px;
+    margin-top: 0px;
+}
 
 
 

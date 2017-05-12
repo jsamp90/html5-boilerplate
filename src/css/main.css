@@ -235,17 +235,23 @@ nav .signin:hoover:{
 
 
 header {
-    background-image: url('../img/civil.jpeg');
+    background-image: url('../img/video.mp4');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding: 15vh 0;
 }
-
 header h1 {
     text-align: left;
     margin-left: 30vh;
 
+}
+section.video {
+    max-width: 100%;
+    position: relative;
+}
+section.video video {
+    width: 100%;
 }
 
 
@@ -294,15 +300,9 @@ section {
 
 
 
-/*Video Fix
-section.video {
-    max-width: 100%;
-    position: relative;
-}
-section.video video {
-    width: 100%;
-}
-/*Video Fix*/
+
+
+
 
 section.whoweare {
     margin-top: 150px;

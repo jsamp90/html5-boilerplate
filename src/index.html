@@ -13,7 +13,7 @@
         <!-- Place favicon.ico in the root directory -->
 
         <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -25,7 +25,7 @@
 
         <!-- Structural Elements -->
         <nav>
-            <h1>Legal Lives</h1>
+            <h1>LEGAL LIVES</h1>
             <ul>
                 <li><a href="#/topics">TOPICS</a></li>
                 <li><a href="#/lawyers">LAWYERS</a></li>
@@ -43,26 +43,53 @@
 
 
         <header>
-            <section class="video">
-                <video width="320" height="240" controls>
-                    <source src="movie.mp4" type="video/mp4">
-                    <source src="movie.ogg" type="video/ogg">
-                    Your browser does not support the video tag.
-                </video>
-            </section>
-            <h1>Legal Help</h1><br>
-            <form>
-                <h3>Search Topics</h3>
-                <input type="text" name="keywords">
-                <br>
-                <br>
-                <h3>Search Lawyers</h3>
-                <input type="text" name="practice-area">
-                <input type="text" name="location">
-                <input type="submit" name="submit" />
-            </form>
-        </header>
+            <video autoplay muted loop>
+              <source src="video/video.mp4" type="video/mp4">
+              Your browser does not support HTML5 video.
+            </video>
+            <div class="headercontainer">
 
+                <div class="headercontent topics">
+                    <h1>Legal Help</h1><br>
+                    <form>
+                        <div class="switch">
+                            <a class="topics active" href="">
+                                <h3>Search Topics</h3> 
+                            </a>
+                            <a class="lawyers" href="">
+                                <h3>Search Lawyers</h3>
+                            </a>
+                        </div>
+                        <input type="text" name="keywords">
+                        <input type="submit" name="submit" />
+                     </form>
+
+                </div>
+
+                <div class="headercontent lawyers">
+                    <h1>Legal Help</h1><br>
+                    <form>
+                        <div class="switch">
+                            <a class="topics" href="">
+                                <h3>Search Topics</h3> 
+                            </a>
+                            <a class="lawyers" href="">
+                                <h3>Search Lawyers</h3>
+                            </a>
+                        </div>
+                        <input type="text" name="keywords">
+                        <br>
+                        <br>
+                        <h3>Search Lawyers</h3>
+                        <input type="text" name="practice-area">
+                        <input type="text" name="location">
+                        <input type="submit" name="submit" />
+                     </form>
+
+                </div>
+
+            </div>
+        </header>
 
 
 
@@ -100,21 +127,18 @@
 
         <section class="whoweare">
             <div class="understand">
-                <h3 class="underline">Never Get Lost In Legal Loopholes</h3>
+                <h3 class="underline">Understand Your Problem & Find Solutions</h3>
                 <brk>
-                <h3 class="understand2">Understand Your Problem & Find The Answers</h3><brk>
             </div>
             <div class="learningtopics">
-                <h3>Search Information On Every Practice</h3><brk>
-                <h3>Search Your Problem with The Law</h3><brk>
-                <h3>Easy & Simple to Understand</h3><brk>
-                <h3>What, Where, and How To Proceed</h3><brk>
+                <h3>Search Info On Every Practice</h3><brk>
+                <h3>Simple Topics Help Find Solutions</h3><brk>
+                <h3>Know What, Where, and How To Proceed</h3><brk>
             </div>
             <div class="lawyerstohelp">
-                <h3>Lawyers Are Here To Help</h3><brk>
-                <h3>For Every Practice & Specialization</h3><brk>
-                <h3>With reviews & details</h3><brk>
-                <h3>Experience, Cases, & Info</h3><brk>
+                <h3>Connect with Lawyers From Every Practice</h3><brk>
+                <h3>With Information & Details</h3><brk>
+                <h3>Including Reviews, Experience, & Cases</h3><brk>
             </div>
         </section>
 

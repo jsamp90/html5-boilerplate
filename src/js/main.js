@@ -36,7 +36,5 @@ $( ".switch a" ).click(function(event) {
   	// add active class
   	$( ".switch a" ).removeClass( "active" );
   	$( ".switch a."+clickedOption ).addClass( "active" );
-
-
 });
 

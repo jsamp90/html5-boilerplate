@@ -139,6 +139,10 @@ textarea {
 
 
 
+
+
+
+
 body {
     font-family: 'Droid Serif', serif;
 }
@@ -177,19 +181,30 @@ a {
 
 
 
+
+
+
 nav {
-    background: #0B9ADB;
+    background: #FFFFFF;
     position: relative;
     top: 0;
     left: 0;
     right: 0;
+    height:100px;
     width: 100%;
     text-align: center;
+}
+nav img {
+    display: inline-block;
+    height: 10px;
+    left: 0;
+    height: 100px;
+    width: 100px;
 }
 nav h1 {
     position: absolute;
     padding: 10px 18px;
-    color: white;
+    color: #0B9ADB;
 }
 nav ul {
     list-style: none;
@@ -197,45 +212,43 @@ nav ul {
     padding: 10px;
 }
 nav li {
+    margin-top: 10px;
     display: inline-block;
 }
-li a {
+nav li a {
     display: block;
-    color: white;
+    color: #0B9ADB;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 16px;
     text-decoration: none;
 }
-li a:hover {
-    background-color: #F78000;
-    color: white;
+nav a:hover {
+    border-bottom: 2px solid orange;
 }
 nav .signup,
 nav .signin {
-    font-family: 'Pacifico', cursive;
-    color: white;
+    color: #0B9ADB;
     position: absolute;
+    margin-top: 40px;
+    padding: 0px 16px;
     top: 0;
     right: 0;
-    padding: 25px 25px;
 }
 nav .signup {
-    right: 125px;
+    right: 150px;
 }
 nav .signin {
-    right: 20px;
+    right: 40px;
 }
-nav .signup,
-nav .signin:hoover:{
-    background-color: #F78000;
-    color: white;
-}
+
+
+
+
 
 
 
 
 header {
-    background-image: url('../img/civil.img');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -325,7 +338,7 @@ section.whoweare div.understand {
     text-align: center;
 }
 div.understand h3.underline {
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid orange;
     padding-bottom: 20px;
     width: 55%;
     margin: auto;
@@ -369,6 +382,7 @@ section.grid div.grid-item {
 .grid-item h3 {
     margin-top: 90px;
 }
+
 
 
 
@@ -425,6 +439,9 @@ section.practicegrid div.practice-grid-item:nth-child(8) {
 }
 section.practicegrid div.practice-grid-item:nth-child(9) {
     background-image: url('../img/PracticeArea/debt.jpg');
+}
+.practicegrid a:hover {
+    border-bottom: 2px solid orange;
 }
 
 
@@ -488,13 +505,38 @@ article img {
     height: auto;
 }
 
+
+
+
+
+
+
 footer {
-    height: 300px;
+    height: 175px;
     width: 100%;
     background: #0B9ADB;
     float: left;
     clear: both;
     text-align: center;
+}
+footer ul {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+footer li {
+    margin-top: 10px;
+    display: inline-block;
+}
+footer li a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+footer a:hover {
+    border-bottom: 2px solid orange;
 }
 
 

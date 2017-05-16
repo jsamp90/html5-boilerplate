@@ -190,21 +190,29 @@ nav {
     top: 0;
     left: 0;
     right: 0;
-    height:100px;
+    height: 75px;
     width: 100%;
     text-align: center;
 }
-nav img {
-    display: inline-block;
-    height: 10px;
-    left: 0;
-    height: 100px;
-    width: 100px;
-}
+nav img,
 nav h1 {
     position: absolute;
-    padding: 10px 18px;
+    top: 0;
+    left: 0;
+}
+nav img {
+    height: 75px;
+    width: 75px;
+    margin-left: 10px;
+}
+nav h1 {
     color: #0B9ADB;
+    display: inline-block;
+    margin-top: 15px;
+    left: 90px;
+}
+nav a {
+    text-decoration: none;
 }
 nav ul {
     list-style: none;
@@ -229,8 +237,7 @@ nav .signup,
 nav .signin {
     color: #0B9ADB;
     position: absolute;
-    margin-top: 40px;
-    padding: 0px 16px;
+    margin: 20px 16px 0;
     top: 0;
     right: 0;
 }
@@ -269,7 +276,6 @@ header .headercontainer{
 header .headercontainer .headercontent{
     width: 100%;
 }
-
 header .headercontainer .headercontent.lawyers{
     display: none;
 }
@@ -472,6 +478,14 @@ section.legalcontainer-titlebar div.legalcontainer-title {
     text-align: center;
     margin-top: 40px;
 }
+section .legalcontainer-titlebar .legalcontainer-title .legalcontent .switchcontent a {
+    display: inline-block;
+    padding-right: 20px;
+    text-decoration: none;
+}
+section .legalcontainer-titlebar .legalcontainer-title .legalcontent .switchcontent a {
+    border-bottom: 2px solid orange;
+}
 section.legalcontainer-sections {
     height: 700px;
     margin-top: 0px;
@@ -489,6 +503,7 @@ div.practice-area {
     columns: 4;
     column-width: 275px;
 }
+
 
 
 

@@ -38,3 +38,50 @@ $( ".switch a" ).click(function(event) {
   	$( ".switch a."+clickedOption ).addClass( "active" );
 });
 
+$( ".switchcontent a" ).click(function(event) {
+	event.preventDefault();
+	var contentclicked = $(this).attr("class");
+	if(contentclicked=='practice-area'){
+		$('.legalcontent.practicearea').show();
+		$('.legalcontainer-sections.practice-area').show();
+		$('.legalcontent.country').hide();
+		$('.legalcontainer-sections.countries').hide();
+		$('.legalcontent.name').hide();
+		$('.legalcontent.topic').hide();
+		$('.legalcontainer-sections.topics-area').hide();
+	}
+
+	if(contentclicked=='country'){
+		$('.legalcontent.practicearea').hide();
+		$('.legalcontainer-sections.practice-area').hide();
+		$('.legalcontent.country').show();
+		$('.legalcontainer-sections.countries').show();
+		$('.legalcontent.name').hide();
+		$('.legalcontent.topic').hide();
+		$('.legalcontainer-sections.topics-area').hide();
+	}
+
+	if(contentclicked=='name'){
+		$('.legalcontent.practicearea').hide();
+		$('.legalcontainer-sections.practice-area').hide();
+		$('.legalcontent.country').hide();
+		$('.legalcontainer-sections.countries').hide();
+		$('.legalcontent.name').show();
+		$('.legalcontent.topic').hide();
+		$('.legalcontainer-sections.topics-area').hide();
+	}
+
+	if(contentclicked=='topic'){
+		$('.legalcontent.practicearea').hide();
+		$('.legalcontainer-sections.practice-area').hide();
+		$('.legalcontent.country').hide();
+		$('.legalcontainer-sections.countries').hide();
+		$('.legalcontent.name').hide();
+		$('.legalcontent.topic').show();
+		$('.legalcontainer-sections.topics-area').show();
+	}
+
+	$( ".switch a" ).removeClass( "active" );
+  	$( ".switch a."+contentclicked ).addClass( "active" );
+});
+

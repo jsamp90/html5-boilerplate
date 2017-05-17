@@ -7,6 +7,10 @@ $(document).ready(function() {
 	console.log('ready');
 	headerHeight = $('header').height();
 	console.log(headerHeight);
+	$('.practice-area').show();
+	$('.topics-area').hide();
+	$('.countries').hide();
+	$('.names').hide();
 });
 
 $(window).resize(function() {
@@ -45,32 +49,32 @@ $( ".switchcontent a" ).click(function(event) {
 	event.preventDefault();
 	contentclicked = $(this).attr('class');
 	console.log(contentclicked);
-	if(contentclicked === 'practice-area'){
-		$('.legalcontainer-sections.practice-area').show();
-		$('.legalcontainer-sections.topics-area').hide();
-		$('.legalcontainer-sections.countries').hide();
-		$('.legalcontainer-sections.name').hide();
+	if(contentclicked === 'bypractice-area'){
+		$('.practice-area').show();
+		$('.topics-area').hide();
+		$('.countries').hide();
+		$('.names').hide();
 	}
 
-	if(contentclicked === 'country'){
-		$('legalcontainer-sections .practice-area').hide();
-		$('legalcontainer-sections .topics-area').hide();
-		$('legalcontainer-sections .countries').show();
-		$('legalcontainer-sections .name').hide();
+	if(contentclicked === 'bycountry'){
+		$('.practice-area').hide();
+		$('.topics-area').hide();
+		$('.countries').show();
+		$('.names').hide();
 	}
 
-	if(contentclicked === 'name'){
-		$('legalcontainer-sections .practice-area').hide();
-		$('legalcontainer-sections .topics-area').hide();
-		$('legalcontainer-sections .countries').hide();
-		$('legalcontainer-sections .name').show();
+	if(contentclicked === 'byname'){
+		$('.practice-area').hide();
+		$('.topics-area').hide();
+		$('.countries').hide();
+		$('.names').show();
 	}
 
-	if(contentclicked === 'topic'){
-		$('legalcontainer-sections .practice-area').hide();
-		$('legalcontainer-sections .topics-area').show();
-		$('legalcontainer-sections .countries').hide();
-		$('legalcontainer-sections .name').hide();
+	if(contentclicked === 'bytopic'){
+		$('.practice-area').hide();
+		$('.topics-area').show();
+		$('.countries').hide();
+		$('.names').hide();
 	}
 
 });

@@ -522,22 +522,10 @@ div.countries {
 div.alignName {
     margin-left: 50px;
 }
-div.name h5 {
+div.names h5 {
     float: left;
     margin-top: 40px;
     letter-spacing: 25px;
-}
-section .legalcontainer-sections .practice-area{
-    display: none;
-}
-section .legalcontainer-sections .topics-area{
-    display: none;
-}
-section .legalcontainer-sections .countries{
-    display: none;
-}
-section .legalcontainer-sections .name{
-    display: none;
 }
 section .legalcontainer-titlebar .legalcontainer-title .legalcontent .switchcontent a {
     display: inline-block;

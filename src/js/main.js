@@ -10,6 +10,7 @@ $(document).ready(function() {
 	$('.practice-area').show();
 	$('.topics-area').hide();
 	$('.countries').hide();
+	$('.community').hide();
 	$('.names').hide();
 });
 
@@ -53,6 +54,7 @@ $( ".switchcontent a" ).click(function(event) {
 		$('.practice-area').show();
 		$('.topics-area').hide();
 		$('.countries').hide();
+		$('.community').hide();
 		$('.names').hide();
 	}
 
@@ -60,6 +62,15 @@ $( ".switchcontent a" ).click(function(event) {
 		$('.practice-area').hide();
 		$('.topics-area').hide();
 		$('.countries').show();
+		$('.community').hide();
+		$('.names').hide();
+	}
+
+	if(contentclicked === 'bycommunity'){
+		$('.practice-area').hide();
+		$('.topics-area').hide();
+		$('.countries').hide();
+		$('.community').show();
 		$('.names').hide();
 	}
 
@@ -67,6 +78,7 @@ $( ".switchcontent a" ).click(function(event) {
 		$('.practice-area').hide();
 		$('.topics-area').hide();
 		$('.countries').hide();
+		$('.community').hide();
 		$('.names').show();
 	}
 
@@ -74,6 +86,7 @@ $( ".switchcontent a" ).click(function(event) {
 		$('.practice-area').hide();
 		$('.topics-area').show();
 		$('.countries').hide();
+		$('.community').hide();
 		$('.names').hide();
 	}
 

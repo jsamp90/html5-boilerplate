@@ -151,11 +151,11 @@ body {
     
 }
 h1 {
-    font-size: 48px;
+    font-size: 40px;
     color: white;
 }
 h2 {
-    font-size: 35px;
+    font-size: 32px;
     margin: 0 0 10px;
 }
 h3 {
@@ -166,17 +166,20 @@ h4 {
     margin: 0 0 10px;
 }
 h5 {
-    font-size: 14px;
+    font-size: 20px;
     color: #A7A8AB;
     margin: 0 0 10px;
 }
 h6 {
-    font-size: 14px;
+    font-size: 16px;
     color: #1E1E1E;
     margin: 0 0 10px;
 }
 p {
     margin: 0 0 10px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #A7A8AB;
 }
 blockquote {
     margin: 0 0 10px;
@@ -381,7 +384,7 @@ section.grid .grid-item:hover {
 
 
 section.whoweare {
-    margin-top: 350px;
+    margin-top: 400px;
     height: 400px;
     max-width: 1500px;
 }
@@ -485,6 +488,7 @@ section.legalcontainer-titlebar {
     height: 75px;
     margin-top: 100px;
     max-width: 1200px;
+    text-align: center;
 }
 section.legalcontainer-titlebar div.legalcontainer-title {
     width: 25%;
@@ -496,6 +500,7 @@ section.legalcontainer-titlebar div.legalcontainer-title {
     vertical-align: top;
     border-style: solid;
     border-width: 1px;
+    border-right: 0px;
     border-color: #A7A8AB;
     box-sizing: border-box;
 }
@@ -513,45 +518,46 @@ section.legalcontainer-sections {
     max-width: 1200px;
     margin-top: 0px;
     background: white;
+    text-align: center;
     font-size: 14px;
-    color: #A7A8AB;
     border-style: solid;
     border-width: 1px;
+    border-top: 0px;
     border-color: #A7A8AB;
+    box-sizing: border-box;
 }
 div.practice-area {
     float: left;
     margin-top: 20px;
     margin-left: 30px;
-    columns: 3;
-    column-width: 375px;
-
+    columns: 4;
+    column-width: 275px;
 }
 div.topics-area {
     float: left;
     margin-top: 20px;
     margin-left: 30px;
-    columns: 3;
-    column-width: 375px;
+    columns: 4;
+    column-width: 275px;
 }
 div.countries {
     float: left;
     margin-top: 40px;
     margin-left: 50px;
     columns: 6;
-    column-width: 225px;
+    column-width: 370px;
 }
 div.community {
     float: left;
     margin-top: 20px;
     margin-left: 30px;
     columns: 3;
-    column-width: 375px;
+    column-width: 370px;
 }
 div.alignName {
     margin-left: 50px;
 }
-div.names h5 {
+div.names p {
     float: left;
     margin-top: 40px;
     letter-spacing: 25px;
@@ -563,6 +569,40 @@ section .legalcontainer-titlebar .legalcontainer-title .legalcontent .switchcont
 }
 section .legalcontainer-titlebar .legalcontainer-title .legalcontent .switchcontent a.active {
     border-bottom: 2px solid orange;
+}
+
+
+
+
+section.values {
+    max-width: 1200px;
+    margin-top: 150px;
+    text-align: left;
+}
+section.values .valuelist {
+    margin: 0%;
+    height: 600px;
+    background: white;
+    vertical-align: top;
+}
+section.values .valuelist .valueword {
+    width: 50%;
+    margin: 0%;
+    height: 175px;
+    padding-right: 30px;
+    padding-left: 75px;
+    background: white;
+    display: block;
+    float: left;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+
+
+
+section.reviews {
+    display: none;
 }
 
 
